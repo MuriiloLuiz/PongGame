@@ -44,7 +44,7 @@ let trilha;
  function draw() {
   background(0);
   mostraBolinha();
-  //movimentaBolinha();
+  movimentaBolinha();
   verificarcolisaoborda();
   mostraRaquete(xRaquete, yRaquete);
   movimentaRaquete();
